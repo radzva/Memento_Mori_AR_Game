@@ -7,7 +7,7 @@ const camPos = new THREE.Vector3();
 const tmpTarget = new THREE.Vector3();
 const tmpDir = new THREE.Vector3();
 
-/**
+/*
  * Runs one step of the game logic:
  *  - move the animal toward the player
  *  - update the salt circle position
@@ -24,6 +24,7 @@ export function updateGame({
 }) {
   if (!placed || !animal || gameOver) return gameOver;
 
+  
   // Get camera position and project it onto the floor
   renderer.xr.getCamera(camera).getWorldPosition(camPos);
   camPos.y = FLOOR_Y;
