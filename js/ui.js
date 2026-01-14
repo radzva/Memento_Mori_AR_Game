@@ -1,4 +1,3 @@
-// for UI
 const msg  = document.getElementById("msg");
 const hint = document.getElementById("hint");
 

@@ -1,4 +1,5 @@
 import * as THREE from "three";
+
 /*
  * This creates a simple placement reticle used for AR hit testing.
  * The transform is updated manually from WebXR hit-test results.
