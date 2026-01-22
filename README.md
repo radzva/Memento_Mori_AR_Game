@@ -28,7 +28,7 @@ From the project root directory, start a local HTTP server:
 
 ```bash
 python3 -m http.server 8080
-
+```
 ---
 ### 2. Expose the Server via HTTPS
 
@@ -37,7 +37,7 @@ In a separate terminal, create a temporary HTTPS tunnel to the local server:
 
 ```bash
 cloudflared tunnel --url http://localhost:8080
-
+```
 Cloudflare will output a public https:// URL.
 
 ---
@@ -74,7 +74,7 @@ export const FLOOR_Y        = -1;
 The 3D model can be replaced by swapping:
 ```bash
 models/anubis.glb
-
+```
 with any other model is /models OR any compatible .glb or .gltf asset.
 
 ---
