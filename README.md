@@ -42,25 +42,17 @@ Cloudflare will output a public https:// URL.
 
 ---
 ### 3.  Launch on Mobile Device
-
-    Open the generated HTTPS URL on your Android phone in Google Chrome
-
-    Tap Enter AR
-
-    Move the phone to allow surface detection
-
-    Tap to place the creature on the floor
-
-    Physically move away to avoid it
+Open the generated HTTPS URL on your Android phone in Google Chrome
+Tap Enter AR
+Move the phone to allow surface detection
+Tap to place the creature on the floor
+Physically move away to avoid it
 
 ---
 ### Interaction Model
-
-    Tap screen — place the creature
-
-    Physical movement — maintain distance from the creature
-
-    No on-screen controls — interaction is fully embodied
+    Tap screen,place the creature
+    Physical movement means maintain distance from the creature
+    No on-screen controls but interaction is by movement
 
 ---
 ### Customisation
